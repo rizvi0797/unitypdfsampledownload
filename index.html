@@ -3,7 +3,12 @@
    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 </head>
 <body >
-   <h1>My Deep Link Test page</h1>
-   <p><a href="dslhindalcosample://mylink">Launch</a></p>
+   <script>
+      window.onload = function() {
+      <!-- Deep link URL for existing users with app already installed on their device -->
+          window.location = 'dslhindalcosample://mylink';
+      }
+      </script>
+   <h1>Starting Dashboard.........</h1>
 </body>
 </html>
